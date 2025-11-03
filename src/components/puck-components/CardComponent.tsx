@@ -18,10 +18,12 @@ export const CardComponent: ComponentConfig<CardProps> = {
         title: {
             type: 'text',
             label: 'Card Title',
+            contentEditable: true
         },
         description: {
             type: 'text',
             label: 'Card Description',
+            contentEditable: true
         },
         imageUrl: {
             type: 'text',

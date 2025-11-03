@@ -12,8 +12,8 @@ export interface TextBlockProps {
 
 export const TextBlockComponent: ComponentConfig<TextBlockProps> = {
     fields: {
-        heading: { type: 'text' },
-        content: { type: 'textarea' },
+        heading: { type: 'text', contentEditable: true },
+        content: { type: 'textarea', contentEditable: true },
         size:{
             type: 'select',
             options: [

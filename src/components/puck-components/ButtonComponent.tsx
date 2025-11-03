@@ -17,6 +17,7 @@ export const ButtonComponent: ComponentConfig<ButtonProps> = {
         text: {
             type: 'text',
             label: 'Button text',
+            contentEditable: true
         },
         link: {
             type: 'text',

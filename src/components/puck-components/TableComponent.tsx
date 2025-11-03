@@ -27,10 +27,11 @@ export const TableComponent: ComponentConfig<TableProps> = {
                 title: {
                     type: 'text',
                     label: 'Column Title',
+                    contentEditable: true
                 },
                 dataIndex: {
                     type: 'text',
-                    label: 'Data key'
+                    label: 'Data key',
                 },
             },
             getItemSummary: (item) => item.title || 'Untitled Column',

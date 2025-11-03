@@ -13,8 +13,8 @@ export interface HeroProps {
 
 export const HeroComponent: ComponentConfig<HeroProps> = {
     fields: {
-        title: { type: 'text' },
-        subtitle: { type: 'text' },
+        title: { type: 'text', contentEditable: true },
+        subtitle: { type: 'text', contentEditable: true },
         alignment: {
             type: 'select',
             options: [
